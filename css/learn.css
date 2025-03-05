@@ -34,7 +34,46 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
+  padding: 1.33333333vw 0 0 1.33333333vw;
 }
 .header .return {
+  font-family: 'FZShuSong-Z01S';
+  color: #fff;
+}
+.content .top {
+  height: 40vw;
+  text-align: center;
+  line-height: 40vw;
+  font-family: 'FZWeiBei-S03S';
+  font-size: 10.66666667vw;
+  color: #fff;
+}
+.content .middle {
+  height: 117.33333333vw;
+  overflow-y: auto;
+}
+.content .middle .blue {
+  display: block;
+  padding: 2.66666667vw 8vw 2.66666667vw 8vw;
+  text-align: center;
+  font-family: 'FZWeiBei-S03S';
+  font-size: 8vw;
+  color: #fff;
+  background-color: rgba(21, 166, 233, 0.52);
+}
+.content .middle .white {
+  display: block;
+  padding: 2.66666667vw 8vw 2.66666667vw 8vw;
+  text-align: center;
+  font-family: 'FZWeiBei-S03S';
+  font-size: 8vw;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.42);
+}
+.content .bottom {
+  position: fixed;
+  bottom: 0;
+  padding: 2.66666667vw 0 1.33333333vw 2.66666667vw;
+  font-family: 'FZShuSong-Z01S';
   color: #fff;
 }
