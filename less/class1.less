@@ -1,0 +1,40 @@
+@import url(base.less);
+@baseSize: 3.75vw;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: (5 / @baseSize) 0 0 (5 / @baseSize);
+  .return {
+    font-family: 'FZShuSong-Z01S';
+    color: #fff;
+  }
+}
+.content {
+  .top {
+    padding-top: (70 / @baseSize);
+    text-align: center;
+    font-family: 'FZShuSong-Z01S';
+    font-size: (35 / @baseSize);
+    color: #fff;
+    .title {
+      margin-bottom: (10 / @baseSize);
+      .subTitle {
+        padding-top: (5 / @baseSize);
+        font-size: (17 / @baseSize);
+      }
+    }
+  }
+  .middle {
+    height: (505 / @baseSize);
+    overflow-y: auto;
+    padding: (10 / @baseSize) (10 / @baseSize) 0 (10 / @baseSize);
+    font-family: 'FZShuSong-Z01S';
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.19);
+    p {
+      text-indent: 2em;
+    }
+  }
+}
